@@ -1,0 +1,22 @@
+name: soil_roughness
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.9
+  - pytorch-lightning
+  - jupyter
+  - requests
+  - xarray
+  - dask
+  - rioxarray
+  - matplotlib
+  - seaborn
+  - earthengine-api
+  - scipy
+  - geemap
+  - notebook==6.4.12
+  - jupyter_contrib_nbextensions
+  - pip:
+    - eotransform_pandas
+    - geopathfinder
